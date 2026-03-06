@@ -3,7 +3,7 @@ function validateForm(){
   let nameValue= document.getElementById("name").value;
   let age=document.getElementById("age").value;
   if(nameValue === "" ||  age === "" ){
-    alert("Please enter valid details.");   
+   alert("Please enter valid details");
      return false; 
   }
  submitForm(nameValue, age)
